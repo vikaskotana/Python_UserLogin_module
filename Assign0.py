@@ -72,9 +72,9 @@ def forgot_password():
 
 def main():
     print("choose one option")
-    print("1. Registration")
-    print("2. Login")
-    print("3. Forgot Pass")
+    print("Registration-->  1")
+    print("Login-->  2")
+    print("Forgot Pass-->  3")
     l = int(input())
     if(l==1):
         register()
